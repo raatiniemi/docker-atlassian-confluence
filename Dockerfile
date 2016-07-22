@@ -3,7 +3,7 @@ MAINTAINER Tobias Raatiniemi <raatiniemi@gmail.com>
 
 ENV CONF_HOME /var/atlassian/confluence
 ENV CONF_INSTALL /opt/atlassian/confluence
-ENV CONF_VERSION 5.10.0
+ENV CONF_VERSION 5.10.2
 
 RUN set -x \
 	&& apt-get update \
